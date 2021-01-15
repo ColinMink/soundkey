@@ -8,6 +8,7 @@
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+    display:none;
 }
 
 
@@ -19,3 +20,21 @@
     display: block;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 900px) {
+    .sidebar {
+      display: block;
+    }
+  }

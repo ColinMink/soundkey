@@ -1,4 +1,13 @@
 .content {
-    margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 900px) {
+    /* Sidebar comes in so add a margin to account for it */
+    .content {
+        margin-left: 160px;
+    }
+  }
