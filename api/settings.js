@@ -10,7 +10,7 @@ module.exports = {
         host: process.env.DB_HOST,
         user: process.env.DB_USER,
         password: process.env.DB_PASSWORD,
-        schema: 'sound_key'
+        database: 'sound_key'
       }
     },
     production: {

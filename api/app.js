@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require("cors");
+var database = require("./bin/models/database.js");
 
 var usersRouter = require('./routes/users');
 var chordAPIRouter = require("./routes/chordAPI");
@@ -19,6 +20,8 @@ app.use(cookieParser());
 
 app.use('/users', usersRouter);
 app.use("/chordAPI", chordAPIRouter);
+
+database;
 
 
 module.exports = app;

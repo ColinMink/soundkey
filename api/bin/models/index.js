@@ -1,4 +1,3 @@
-const mysqlx = require('@mysql/xdevapi');
 const Settings = require("../../settings");
 const dbSettings = Settings[Settings.env].db;
 
